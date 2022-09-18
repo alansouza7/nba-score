@@ -1,0 +1,106 @@
+@import url('http://fonts.cdnfonts.com/css/cursed-timer-ulil');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    background-image: url(1305335.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.new-game {
+    position: absolute;
+    top: 16%;
+    width: 105px;
+    height: 45px;
+    font-size: 1.8rem;
+    border: 1px solid #9AABD8;
+    font-family: 'Verdana', sans-serif;
+    color: #9AABD8;
+    border-radius: 5px;
+}
+
+ .container {
+    width: 600px;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    align-items: center;
+    background-color: #0C4A6E;
+    border-radius: 10px;
+} 
+
+.home {
+    width: 40%;
+}
+
+.guest {
+    width: 40%;
+}
+
+.home h2, .guest h2{
+    margin-bottom: 20px;
+    padding: 1rem;
+}
+
+.home-title, .guest-title {
+    font-size: 4rem;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #EEEEEE;
+}
+
+.score-container {
+    width: 155px;
+    height: 120px;
+    font-size: 9rem;
+    margin: 0 auto;
+    margin-bottom: 26px;
+    background: #080001;
+}
+
+.score-container p {
+    height: 110%;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    margin-top: 1rem;
+    justify-content: center;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    color: #F94F6D;
+    
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.buttons button {
+    width: 45px;
+    height: 45px;
+    font-size: 1.8rem;
+    border: 1px solid #9AABD8;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    color: #9AABD8;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
