@@ -26,7 +26,7 @@ body {
 
 .new-game {
     position: absolute;
-    top: 16%;
+    top: 2%;
     width: 105px;
     height: 45px;
     font-size: 1.8rem;
@@ -45,6 +45,7 @@ body {
     align-items: center;
     background-color: #0C4A6E;
     border-radius: 10px;
+    position: relative;
 } 
 
 .home {
